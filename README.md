@@ -1,5 +1,5 @@
 # Who am I?
-I work for a large tech company in Infosec, specifically Incident Response.  I also have a lot of highly nerdy hobbies like retro gaming and 3d printing.
+I work in Threat Intelligence but I'm mostly a data science junkie.  Hobbies are 3d printing, cooking, games (of all kinds), and plants.
 
 # Useful tools
 - [SSH Autoproxy](https://github.com/rmonk/ssh-autoproxy): Automatically connect over SSH JumpHosts when needed and provide SOCKS endpoints for browsers.  It's like FoxyProxy for everything!
