@@ -11,3 +11,8 @@ I work for a large tech company in Infosec, specifically Incident Response.  I a
 - [Romm Retroarch Sync](https://github.com/rmonk/romm-retroarch-sync): Sync your local flatpak Retroarch games/saves/savestates with your Romm server.
 - [AVML](https://github.com/rmonk/avml): Fork of MS's AVML Linux memory image tool with ability to stream the image over an SSH session
 - [Site-Monitor](https://github.com/rmonk/site-monitor): A simple tool to monitor and alert on sites that are down, like Uptime Kuma
+
+## Hardened images
+I have a number of *-hardened repos here.  These are automatically rebuilt container images for several common projects which are behind on their security updates, mostly when it comes to dependencies.  With the massive uptick in CVEs over the past few months (As of writing in Nov 2026, several critical vulnerabilities in major packages THIS WEEK) the biggest flaw in containerized workloads is coming to fruition.
+
+Since I don't have the money for Aikido's auto-patching toolkit, I have claude rebuild from upstream with updated container images with as many patched versions as I can.  These rebuild usually weekly.
